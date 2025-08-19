@@ -24,3 +24,9 @@ sudo python3 get-pip.py
 ```python
 sudo pip3 install RPi.GPIO
 ```
+
+### Errors
+No module named 'rclpy' (when you run rosHelloWorld.py) <br>
+Run
+```$ source /opt/ros/humble/setup.bash```
+
