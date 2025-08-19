@@ -13,10 +13,10 @@ Install ROS2 Humble using instructions (https://docs.ros.org/en/humble/Installat
 Download the git repository <br>
 
 Ensure Python and pip are up-to-date 
-'''sudo apt install python3 -y
+```sudo apt install python3 -y 
 wget https://bootstrap.pypa.io/get-pip.py
-sudo python3 get-pip.py'''
+sudo python3 get-pip.py```
 
 
 Install RPi.GPIO
-'''    sudo pip3 install RPi.GPIO'''
+```sudo pip3 install RPi.GPIO```
