@@ -10,8 +10,7 @@ Webcam
 ## Installation
 Install Jammy Jellyfish (Server image: https://cdimage.ubuntu.com/releases/jammy/release/) on the Pi  <br>
 Install ROS2 Humble using instructions (https://docs.ros.org/en/humble/Installation.html) using the deb packages  <br>
-Clone the git repository <br>
-```git clone https://github.com/pravin-vaz/XRover.git```
+
 
 ### Ensure Python and pip are up-to-date <br>
 ```python
@@ -24,6 +23,9 @@ sudo python3 get-pip.py
 ```python
 sudo pip3 install RPi.GPIO
 ```
+
+### Clone the git repository <br>
+```git clone https://github.com/pravin-vaz/XRover.git```
 
 ### Errors
 No module named 'rclpy' (when you run rosHelloWorld.py) <br>
